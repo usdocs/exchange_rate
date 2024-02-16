@@ -14,11 +14,13 @@ https://www.cbr-xml-daily.ru/daily_json.js
 * rate/ с параметрами charcode и date. 
 Например: http://127.0.0.1:8000/rate/?charcode=AUD&date=2024-01-01
 Выводит результат в виде JSON в формате:
+```bash
 {
 "charcode": "AUD",
 "date": "2024-01-01",
 "rate": 57.0627
 }
+```
 
 ### Шаблон наполнения .env
 
